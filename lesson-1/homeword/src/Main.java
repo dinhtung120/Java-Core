@@ -17,7 +17,9 @@ public class Main {
 
         System.out.println("Đây là chỉ số BMI kiểu trả về double: BMI = " + BMI.bmiDouble(55,1.72));
 
-        System.out.printf("Đây là chỉ số BMI kiểu trả về double có truyền tham số: BMI = %.2f", BMI.bmiDouble(55,1.72));
+        System.out.printf("Đây là chỉ số BMI kiểu trả về double có truyền tham số: BMI = %.2f \n", BMI.bmiDouble(55,1.72));
+
+        System.out.println("--->Phương thức tốt nhất là kiểu double có truyền tham số".toUpperCase());
 
      }
 
