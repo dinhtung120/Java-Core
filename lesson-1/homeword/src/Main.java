@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Câu 2: Chương trình tính chỉ số BMI:");
 
-        System.out.println("Đây là chỉ số BMI kiểu trả về double: BMI = 18.59 (T-T)");
+        System.out.println("Đây là chỉ số BMI kiểu trả về void: BMI = 18.59 (T-T)");
 
         System.out.println("Đây là chỉ số BMI kiểu trả về double: BMI = " + BMI.bmiDouble(55,1.72));
 
