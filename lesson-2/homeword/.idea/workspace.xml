@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b407810-3fcd-41f3-b4dc-6f6b108fe9f2" name="Changes" comment="" />
+    <list default="true" id="8c2d2b65-a18e-4b7f-a70b-1412f3e4b3fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="22SQfCtlnO48hRbyQNzwaDPbOba" />
+  <component name="ProjectId" id="22VRBzwqUCdyrZTYeKXf7ViAoab" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,12 +32,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homeword" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="date" />
+      <module name="homeword" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -51,11 +51,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b407810-3fcd-41f3-b4dc-6f6b108fe9f2" name="Changes" comment="" />
-      <created>1639828612105</created>
+      <changelist id="8c2d2b65-a18e-4b7f-a70b-1412f3e4b3fa" name="Changes" comment="" />
+      <created>1639920639056</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639828612105</updated>
+      <updated>1639920639056</updated>
     </task>
     <servers />
   </component>

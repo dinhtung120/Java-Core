@@ -62,20 +62,7 @@ public class Main {
 //        String check = number==rd2Number ? number + " và " + rd2Number + " Giống nhau" : number + " và " + rd2Number + " Khác nhau";
 //        System.out.println(check);
 
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập cạnh a");
-        double a = sc.nextInt();
-        System.out.println("Nhập cạnh b");
-        double b = sc.nextInt();
-        double canhA =Math.pow(a.2);
-        double canhB =Math.pow(b.2);
-        double canhC =canhA+canhB;
-
-        double c = Math.sqrt(canhC );
-
-        System.out.println(c);
-
+//
 
 
     }
