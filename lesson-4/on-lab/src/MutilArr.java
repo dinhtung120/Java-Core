@@ -18,8 +18,8 @@ public class MutilArr {
             System.out.println();
         }
         System.out.println();
-        System.out.println("Đường chéo chính");
         for (int i = 0; i<arr.length;i++){
+            System.out.print("Đường chéo chính: ");
             for (int j =0; j<arr[i].length;j++){
                 if (i==j){
                     System.out.print(arr[i][j] + "\t");
