@@ -24,15 +24,4 @@ public class Kitchen extends Employee {
         return super.toString() + " - " + formatMoney(serviceCharge);
     }
 
-    public static Kitchen[] getAllKichen() {
-        Kitchen[] kitchens = new Kitchen[1];
-        kitchens[0] = new Kitchen(2, "Tuấn", 28, 12000000, 3000000);
-        return kitchens;
-    }
-
-    public static void printKitchen(Kitchen[] kitchens) {
-        for (Kitchen kitchen : kitchens) {
-            System.out.println(kitchen);
-        }
-    }
 }
