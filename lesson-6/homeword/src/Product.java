@@ -22,7 +22,7 @@ public class Product{
         return  "Sản phẩm: " + id +
                 ", name='" + name + '\'' +
                 ", amount=" + amount +
-                ", unit=" + unit +
+                ", unit=" + unit.getValue() +
                 ", priceBuy=" + priceBuy +
                 ", priceSell=" + priceSell +
                 ", amountSell=" + amountSell
