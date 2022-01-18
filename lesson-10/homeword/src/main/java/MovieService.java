@@ -70,7 +70,8 @@ public class MovieService {
         Collections.sort(movies, new Comparator<Movie>() {
             @Override
             public int compare(Movie o1, Movie o2) {
-                return o2.getView()- o1.getView();
+
+                return o2.getView() - o1.getView();
             }
         });
         System.out.println(movies.get(0));
@@ -78,10 +79,10 @@ public class MovieService {
         System.out.println(movies.get(2));
     }
 
-    public void searchByCategory(ArrayList<Movie> movies,String searchCategory){
+    public void searchByCategory(ArrayList<Movie> movies, String searchCategory) {
         System.out.println("Các phim thể loại bạn tìm là:");
-        for (Movie movie: movies){
-            if(Arrays.toString(movie.getCategory()).toLowerCase().contains(searchCategory.toLowerCase())){
+        for (Movie movie : movies) {
+            if (Arrays.toString(movie.getCategory()).toLowerCase().contains(searchCategory.toLowerCase())) {
                 System.out.println(movie);
             }
         }
