@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ProductService {
     Scanner scanner = new Scanner(System.in);
 
-    public ArrayList<Product> gerAllProduct() {
+    public ArrayList<Product> getAllProduct() {
         ArrayList<Product> products = new ArrayList<>();
         products.add(new Product(1, "Apple iPhone 13 Pro Max", "Chính hãng VN/A",
                 29850000, 10, 5, "Apple",

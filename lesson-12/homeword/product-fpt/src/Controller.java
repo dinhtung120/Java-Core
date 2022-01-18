@@ -5,7 +5,7 @@ public class Controller {
 
     static Scanner scanner = new Scanner(System.in);
     static ProductService service = new ProductService();
-    static ArrayList<Product> products = service.gerAllProduct();
+    static ArrayList<Product> products = service.getAllProduct();
 
     public static void menu() {
         System.out.println("----------------------------------");
