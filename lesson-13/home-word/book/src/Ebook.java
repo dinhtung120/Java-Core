@@ -1,5 +1,3 @@
-import model.Book;
-
 public class Ebook extends Book {
     private int publishingYear;
     private double size;

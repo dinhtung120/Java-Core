@@ -1,5 +1,3 @@
-import model.Schoolbook;
-
 import java.util.ArrayList;
 
 public class SchoolbookService {

@@ -1,10 +1,10 @@
-import java.util.ArrayList;
+import Controller.Controller;
 
 public class Main {
     public static void main(String[] args) {
-        UserService service = new UserService();
-        ArrayList<User> users = service.getAllUser();
+        Controller controller = new Controller();
+        controller.home();
 
-        service.login(users);
+
     }
 }

@@ -1,7 +1,3 @@
-import model.Book;
-import model.Newspaper;
-import model.Schoolbook;
-
 import java.time.LocalDate;
 import java.util.*;
 

@@ -1,6 +1,3 @@
-package model;
-
-import model.Book;
 
 public class Schoolbook extends Book {
     private int publishingYear;

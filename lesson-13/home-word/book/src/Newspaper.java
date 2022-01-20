@@ -1,6 +1,4 @@
-package model;
 
-import model.Book;
 
 import java.time.LocalDate;
 

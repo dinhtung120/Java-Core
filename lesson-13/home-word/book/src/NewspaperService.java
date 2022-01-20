@@ -1,5 +1,3 @@
-import model.Newspaper;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
