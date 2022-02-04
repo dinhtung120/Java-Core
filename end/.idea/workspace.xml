@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c38496d-b8d6-4e3a-b863-08f05f228688" name="Changes" comment="" />
+    <list default="true" id="2758aff8-b1fb-465a-85be-a9c13be6c73a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,17 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="241AHOiJkTN5Gxdx0fgWeZhefUR" />
+  <component name="ProjectId" id="24eGD8NSNpVHUHh44pMMQMs1HHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,17 +33,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson-13/on-lab" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\0.java-techmaster\java-core\end" />
+      <recent name="E:\0.java-techmaster\java-core\end\src" />
+      <recent name="E:\0.java-techmaster\java-core\end\src\main\java\service" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="user" />
+      <module name="end" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -56,12 +59,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c38496d-b8d6-4e3a-b863-08f05f228688" name="Changes" comment="" />
-      <created>1642787633641</created>
+      <changelist id="2758aff8-b1fb-465a-85be-a9c13be6c73a" name="Changes" comment="" />
+      <created>1643983518903</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642787633641</updated>
+      <updated>1643983518903</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
