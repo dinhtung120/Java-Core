@@ -107,14 +107,18 @@ public class Controler {
         System.out.println("Chọn 1: Giới tính nam");
         System.out.println("Chọn 2: Giới tính nữ");
         Gender gender = null;
-        int choice = Integer.parseInt(scanner.nextLine());
+        while (gender == null){
+            int choice = Integer.parseInt(scanner.nextLine());
 
-        if (choice == 1) {
-            gender = Gender.MALE;
-        } else if (choice == 2) {
-            gender = Gender.FMALE;
-        } else {
-            System.out.println("Không có lựa chọn này");
+            if (choice == 1) {
+                gender = Gender.MALE;
+            } else if (choice == 2) {
+                gender = Gender.FMALE;
+            } else {
+                System.out.println("Không có lựa chọn này, mời nhập lại: ");
+                System.out.println("Chọn 1: Giới tính nam");
+                System.out.println("Chọn 2: Giới tính nữ");
+            }
         }
         return gender;
     }
@@ -136,11 +140,10 @@ public class Controler {
 
     public String inputEmail() {
         String email = null;
-
         while (email == null) {
             System.out.println("Nhập email");
             email = scanner.nextLine();
-            if (Validate.validateEmail(email) == true) {
+            if (Validate.validateEmail(email)) {
                 return email;
             } else {
                 System.out.println("Email không hợp lệ: ");
